@@ -23,10 +23,20 @@ neste avstand. Scriptet skal avslutte hvis brukeren skriver inn 0.
 
 """
 
-
-from km_til_naut import f_km_til_naut
+"""
+from 3b_km_til_naut import f_km_til_naut 
 resultat = 1
+"""
 
+### Importen fungerte ikke etter å ha endra navn fra km_til_naut til 3b_km_til_naut 🤔
+
+
+
+def f_km_til_naut(avstand_km=0):
+    avstand_naut = round(avstand_km / 1.852, 2)
+    return avstand_naut
+
+resultat = 1
 
 while resultat !=0:
     avstand_km = float(input("Skriv inn avstanden i km: "))

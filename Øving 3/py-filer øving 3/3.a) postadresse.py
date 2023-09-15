@@ -26,4 +26,4 @@ def gateadresse(person):
     #return navn, adresse, postnummer, poststed 
     print(f"Til: {navn} \n{adresse} \n{postnummer} {poststed}")
 
-gateadresse(1) #hvorfor fungerer det å skrive et vilkårlig tall i parantesen 
+gateadresse(1) #hvorfor fungerer det å skrive et vilkårlig tall i parantesen? 
