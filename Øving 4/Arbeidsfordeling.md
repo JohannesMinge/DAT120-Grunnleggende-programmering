@@ -1,6 +1,4 @@
-## Heading 2
-Tekst
-- Bullet point
+### Strategi
+1) Se 2x videoer
 
-Armand
-- Tar oppgave g
+
