@@ -25,15 +25,14 @@ def km_til_naut(avstand_km):
 
 
 # oving_6_testfil
-with open(input("Skriv inn filnavnet til fila du vil åpne: ")+".txt", "r") as ekstern_liste: #importerer den med et alias for å kunne behandle den videre
+with open(input("Skriv inn filnavnet til fila du vil åpne: "), "r") as ekstern_liste: #importerer den med et alias for å kunne behandle den videre
     entries = (ekstern_liste.readline(0)) #fikk ikke med første entry uten å skrive 0 i readline()
 
-
-    filnavn = input("Skriv inn navnet på fila du vil opprette: ")+"_nautiske_mil.txt" #Bruker skriver inn navn på ny fil
+    filnavn = input("Skriv inn navnet på fila du vil opprette: ") #Bruker skriver inn navn på ny fil
     with open(filnavn, "w", encoding="UTF8") as ny_fil: #Ny fil opprettes med aliaset ny_fil videre i scriptet
         for entries in ekstern_liste:
             entries = float(entries)
             
             
             ny_fil.write(f"{entries} km = {km_til_naut(entries)} nautiske mil\n")
-        # ny_fil.close() #for-loopen skriver inn alle entries i den nye fila, før den lukkes. Hadde ikke trengt dette med with-løkka
+        #ny_fil.close() #for-loopen skriver inn alle entries i den nye fila, før den lukkes. Hadde ikke trengt dette med with-løkka
