@@ -33,7 +33,8 @@ ordliste = dict()
 # oving_1_som_rein_tekst.txt
 
 #with open(input("Skriv inn navnet på fila: "), "r", encoding="UTF8") as fila:
-with open("oving_1_som_rein_tekst.txt", "r", encoding="UTF8") as fila:
+with open("oving_2_som_markdown.md", "r", encoding="UTF8") as fila:
+#with open("oving_1_som_rein_tekst.txt", "r", encoding="UTF8") as fila:
     for linje in fila: #Deler opp alle ordene, fjerner punktum og komma og setter alt til liten bokstav
         linje = linje.replace(".", " ") #måtte sette linje = linje for å bruke replace(). Fjerner punkturm.
         linje = linje.replace(",", " ")
