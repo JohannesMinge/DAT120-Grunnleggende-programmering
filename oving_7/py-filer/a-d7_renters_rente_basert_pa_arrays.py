@@ -57,7 +57,6 @@ plt.title(f"Avkastning på {verdi_start} med {rente}% årlig avkastning.")
 plt.xlabel("Antall år")
 plt.ylabel("Verdi på formuen") 
 
-
 plt.plot(x_koordinater, y_koordinater, "o-", label="3% rente pr. år")
 plt.grid(True)
 plt.show()
