@@ -55,6 +55,7 @@ y_koordinater = renter_pr_aar
 
 plt.title(f"Avkastning på {verdi_start} med {rente}% årlig avkastning.")
 plt.xlabel("Antall år")
+plt.xticks(liste_heltall)
 plt.ylabel("Verdi på formuen") 
 
 plt.plot(x_koordinater, y_koordinater, "o-", label="3% rente pr. år")
