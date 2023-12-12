@@ -29,11 +29,13 @@ class Rom:
 
 Turingsalen = Rom("lesesal", 50, "E454")
 
+
 print(Turingsalen)
 
-# personer_i_Turingsalen = int(input(f"Hvor mange personer er i rom {Turingsalen.romnummer}? "))
-# print(f"{Turingsalen} Med nåværende bruk: {personer_i_Turingsalen} personer, er {personer_i_Turingsalen/Turingsalen.kapasitet*100}% av kapasiteten i bruk.")
+personer_i_Turingsalen = int(input(f"Hvor mange personer er i rom {Turingsalen.romnummer}? "))
+print(f"{Turingsalen} Med nåværende bruk: {personer_i_Turingsalen} personer, er {personer_i_Turingsalen/Turingsalen.kapasitet*100}% av kapasiteten i bruk.")
 
-
+"""
 rom_1 = Rom(input("Skriv inn nytt rom. \nSkriv inn romtype: "), input("Rommets kapasitet: "), input("Romnummer: "))
 print(rom_1)
+"""
