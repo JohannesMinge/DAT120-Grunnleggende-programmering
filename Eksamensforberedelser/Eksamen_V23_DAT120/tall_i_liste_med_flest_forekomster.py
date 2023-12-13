@@ -20,7 +20,7 @@ liste1 = [1, 5, 7, 7, 3, 7, 8, 3, 3, 5, 6, 2]
 
 Tallteller = dict()
 
-for i in range(0, len(liste1)):
+for i in range(len(liste1)):
     if liste1[i] in Tallteller:
         teller = Tallteller[liste1[i]]
         teller += 1
