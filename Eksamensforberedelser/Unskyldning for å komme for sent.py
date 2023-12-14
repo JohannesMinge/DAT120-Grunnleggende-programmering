@@ -22,4 +22,5 @@ Johannes = Avtale("ila. ettermiddagen", "Johannes", "utpå kvelden", "gitarspill
 print(Johannes)
 
         
+
         
